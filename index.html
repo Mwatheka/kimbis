@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Kimbi's Place Apartments are award winning Furnished beach front villas and secluded Serviced plus Self catering beach cottages to let located in Diani Beach, Ukunda 30km from Mombasa, Kenya opposite Diani Palm Resort, The Kimbis Place Apartments are a natural honeymoon holiday paradise for rental in Studio apartments, 1bedroom apartments, 2 bedroom apartments and 3 bedroom apartments, a perfect beach vacation for travelers on honeymoon holidays and family vacations, the drive from Ukunda Diani airstrip to Kimbi's Place is 15 mints and Diani Shopping center with all of its shops, Diani restaurants and Diani bars about 5 minutes, there are many daily scheduled flights from Nairobi and Mombasa to Ukunda / Diani Beach.">
+    <meta name="keywords" content="Kimbi's Place Apartments, Kimbi's Place Apartments Diani, Kimbi's Place, Kimbi's Place Diani, Diani beach, Mombasa, Ukunda, Kenya, Diani Apartments, Apartments in Diani, beach Apartments in Diani, Diani beach Apartments, Diani Villas, Diani beach Villas, beach villas in Diani, Diani home, furnished apartments, serviced apartments, self catering apartments, Diani Cottages, Diani beach cottages, beach cottages in Diani, serviced apartments in Diani, furnished apartments in Diani, self catering apartments in Diani, Diani honeymoon, honeymoon in Diani, Diani honeymoon holidays, Diani honeymoon holiday, Diani honeymoon vacation, honeymoon vacation in Diani, honeymoon safari in Diani, Diani holidays, Diani vacations, 1 bedroom apartments in Diani, 2 bedroom apartments in Diani, 3 bedroom apartments in Diani, Studio apartments, Apartments to let in Diani, Apartments for rental in Diani">
+
+  <title> </title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-4lCUNt1+5cDZgeZA5XhFvGBkJktUUDse27oTjbcKePA7hTP1DJK5pj5BA5chLZZ8RW2dhdBoYy9vA3oUyMjG4g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+  <!-- Custom CSS -->
+  <style>
+    hr {
+      color: black; /* color of the line */
+      background-color:black; /* background color of the line */
+      border: 1px solid black;
+      
+  }
+    .gallery-item img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+  }
+  
+  .carousel-item img {
+      width: 230px;
+      height: 300px;
+      object-fit: cover;
+  }
+  
+  .carousel-item {
+      display: none;
+  }
+  
+  .carousel-item.active {
+      display: block;
+  }
+  
+  .icons-container {
+      background-image: url('image 2.jpg');
+      background-size: cover;
+      background-position: center;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center; /* Center vertically */
+      align-items: center; /* Center horizontally */
+  }
+  
+  .icons-container a.btn {
+      padding: 20px 40px; /* Adjust padding to increase button size */
+      margin-bottom: 20px; /* Add margin between buttons */
+  }
+  
+  .navbar.nav-bg {
+      background-color: transparent; /* Updated background color to transparent */
+      color: white; /* Updated text color to white */
+  }
+  
+  .nav-links {
+      display: flex; /* Use flexbox */
+      justify-content: center; /* Center the list items horizontally */
+      padding-left: 0; /* Remove default padding */
+  }
+  
+  .navbar.nav-bg .nav-link {
+      color: white; /* Set text color to white */
+  }
+  
+  .navbar.nav-bg .navbar-toggler-icon {
+      background-color: white; /* Set icon color to white */
+  }
+  
+  .navbar.nav-bg .navbar-toggler {
+      border-color: white; /* Set border color to white */
+      color: white; /* Set text color to white */
+  }
+  
+  .navbar.nav-bg .navbar-toggler:focus,
+  .navbar.nav-bg .navbar-toggler:active {
+      outline: none; /* Remove outline on focus or active state */
+  }
+  
+  .nav-item {
+      margin-right: 10px; /* Add space between list items */
+  }
+  
+  .nav-item:last-child {
+      margin-right: 0; /* Remove margin from the last list item */
+  }
+  
+  .nav-item a {
+      color: white; /* Set white text color */
+      background-color: black; /* Set black background */
+      padding: 10px 20px; /* Adjust padding */
+      border-radius: 5px; /* Add border radius */
+  }
+  
+  .nav-item:hover {
+      background-color: #333; /* Darken background on hover */
+      } 
+      
+  </style>
+</head>
+<body style="font-family: Georgia, 'Times New Roman', Times, serif;">
+  <header class=" py-3">
+    <div class="container-fluid">
+      <div class="row align-items-center">
+        <div class="col">
+          <h1>Kimbi's Place Apartments</h1>
+        </div>
+        <div class="col text-end">
+          <strong>
+          <h6 style="color:black">Email:
+            bookings@bookingsmgt.co.ke
+          </h6>
+          <h6>
+            Telephone: +254 724 348088
+          </h6>
+        <h6>P.O BOX 3330213</h6>  
+      </strong>      
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="jumbotron jumbotron-fluid">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg nav-bg">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav nav-links">
+            <li class="nav-item"><a href="" class="nav-link">HOME</a></li>
+            <li class="nav-item"><a href="" class="nav-link">ABOUT US</a></li>
+            <li class="nav-item"><a href="" class="nav-link">WHY US</a></li>
+            <li class="nav-item"><a href="" class="nav-link">REVIEWS</a></li>
+            <li class="nav-item"><a href="" class="nav-link">BLOGS</a></li>
+            <li class="nav-item"><a href="#gallery" class="nav-link">GALLERY</a></li>
+            <li class="nav-item"><a href="#contact" class="nav-link">CONTACT US</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </div>
+  
+  
+
+  <main class="container py-5">
+    <section class="row">
+      <div class="col-md-12 justify-content-center">
+        <div style="position:relative;">
+          <img src="banner.jpg" alt="Banner Image" style="width:100%; height:50vh; object-fit: cover;">
+          
+        </div>
+      </div>
+    </section>
+    <hr class="hr"> 
+    <section class="row">
+      <div class="col-md-12">
+        <h2></h2>
+        <p style="text-align:justify;">
+          <b>Kimbi's Place Apartments</b> are award winning <b>Furnished beach front villas</b> and secluded <b>Serviced</b> plus <b>Self catering beach cottages</b> to let located in <b>Diani Beach, Ukunda</b> 30km from <b>Mombasa, Kenya</b> opposite <b>Diani Palm Resort</b>, The <b>Kimbis Place Apartments</b> are a natural <b>honeymoon holiday paradise for rental in Studio apartments, 1bedroom apartments, 2 bedroom apartments</b> and <b>3 bedroom apartments</b>, a perfect <b>beach vacation</b> for travelers on <b>honeymoon holidays</b> and <b>family vacations</b>, the drive from Ukunda Diani airstrip to <b>Kimbi's Place</b> is 15 mints and Diani Shopping center with all of its shops, ,<b>Diani restaurants</b> and <b>Diani bars</b> about 5 minutes, there are many daily scheduled flights from Nairobi and Mombasa to Ukunda / Diani Beach. Mombasa airport is about a 1 ½ hour drive depending on arrival time, including ferry. Mombasa Island and downtown are only 30 Km away, and this usually takes about 1 ½ hours, depending on ferry services (note: the new road connecting Mombasa Moi Intl. Airport to the South Coast will be completed 4Q2018, this will cut driving time to Mombasa to 30 minutes). Diani Beach is 45 minutes away from the beautiful <b>Shimba Hills</b> due West with its National Park, and lodges. Shimoni and the Marine National Park are only about a one-hour drive South towards the boarder with Tanzania. <b>Kimbi's Place Apartments</b> a 4-star beach villa in Diani beach brings a refreshingly unique beach resort experience to Diani beach, <b>Kimbi's Apartments</b> are a breath of fresh air for anyone seeking a beach holiday ‘less ordinary’: a chilled-chic design beach hotel flavored with a splash of humour, <b>Kimbi villas</b> is one of the most unique beach resorts in Diani, these secluded <b>beach resort</b> offers a wide range of accommodation options to suit all desires: all the <b>beach homes</b> are either perched looking out to Ocean on the pristine white sand. <b>Kimbi's Place Villas</b> philosophy of simplicity, elegance and ultimate quality is reflected not only in the <b>beach resort</b> itself but also in the restaurant on site. <b>Kimbi's Beach Apartments</b> will provide a world-class luxury vacation experience for all guests, drawing on the culture of the island and an emphasis on authenticity, Private, Exclusive & Ultimate Travel Luxury are just a few words needed to accurately describe the brand new all suite beach apartments & Wellness Retreat... This is how the dream starts at one of the iconic Kenya luxury resorts, built on a former coconut plantation, it is a sanctuary within a sanctuary, each spacious beachside villa features high ceilings, timber interiors and a infinity pool surrounded by brilliant tropical nature, the <b>beach hotel</b> boasts a world-class spa and wine cellars in Kenya, allowing guests the unique opportunity to enjoy the fine flavors of culinary art and wine amidst a panorama of aquatic life. <b>Kimbi's Place Apartments</b> with plunge pool is your very own secluded beach house – a luxury beach villa, the ideal place to unwind and enjoy the decadent surroundings of paradise, an <b>opulent beachfront beach home</b>, the <b>Kimbi's Place Villa</b> with Pools is elegantly furnished and has luxurious bathrooms and a lush tropical garden with a pool for a refreshing swim. <b>Kimbi's Place Apartments</b> acclaimed as the epitome of unspoiled natural splendor, this lovely <b>beach apartments</b> beckons travelers seeking a holiday escape from the ordinary to indulge in a world where time stands still, and every moment is memorable. <b>Kimbi's Place Apartments Diani</b> stands as a testament to the breath-taking allure of the Kenya Coast. Enveloped by a lagoon of shimmering turquoise waters and adorned with coral banks, the island is a picturesque oasis of serenity. Fringed by powdery white sandy beaches and lush indigenous vegetation, every corner of this idyllic beach retreat is a canvas of untouched natural beauty, stepping into one of the beach villas at <b>Kimbi's Place Apartments</b> is like entering a world of authentic Swahili charm. Unlike other <b>five-star resorts in Diani</b>, these beach villas are designed to reflect the true essence of Diani beach, with their unconventional circular structures, authentic brick roofs and  terra cotta tiles each villa exudes a sense of timeless elegance and rustic allure, concealed amidst tropical ferns, vines and palms, these <b>beach villas</b> offer the perfect travel retreat for those seeking a true Kenyan hideaway, the beach villas evoke a sense of nostalgia with their regal ambiance and panoramic views of the surrounding azure waters. At <b>Kimbi's Place Apartments</b> luxury is redefined as a state of effortless relaxation and blissful seclusion, this much-loved <b>beach resort</b> embodies the concept of “no shoes, no news,” offering guests a sanctuary away from the distractions of modern life. Here, you will find televisions in every room and ubiquitous internet access, you’ll find yourself immersed in the simplicity of island living, where every moment is an invitation to unwind, reconnect with nature, and savour the true essence of barefoot luxury. <b>Kimbi's Place Villas</b> are more than just luxury <b>beach resort</b> – it’s a steward of the environment and a champion of local heritage and community. Committed to preserving the natural beauty of its surroundings, the <b>beach hotel</b> actively engages in eco-friendly initiatives aimed at minimizing its environmental impact and supporting the local community. From a wonderful turtle rescue and rehabilitation centre to sustainable practices to community outreach programs, every aspect of <b>Kimbi's Place Apartments</b> is infused with a sense of social and environmental responsibility, ensuring that guests can enjoy their stay knowing that they are contributing to a brighter, more sustainable future for Diani and beyond. <b>Kimbi's Place Villas</b> is privileged to be situated amidst one of the world’s most biodiverse ecosystems. From its rich marine life to its pristine coral reefs, the waters surrounding the beach resort teem with life, offering guests a rare glimpse into the wonders of the natural world. <b>Watamu island</b> located nearby, is renowned for its annual gatherings of whale sharks and manta rays providing diving enthusiasts with an unparalleled opportunity to witness these majestic creatures in their natural habitat, whether exploring the depths of the ocean or simply basking in the beauty of the island’s surroundings, guests of <b>Kimbi's Place Villas</b> are invited to embark on a journey of discovery and exploration unlike any other. Nestled in the heart of the island lies <b>Kimbi's Place Villas</b> Spa, a sanctuary of rejuvenation and wellbeing where guests can indulge in a range of holistic treatments designed to soothe the mind, body, and soul. From traditional Swahili massages to Ayurvedic rituals, the spa offers a variety of tailored experiences aimed at promoting relaxation, healing, and renewal. Surrounded by lush tropical gardens and overlooking the azure waters of the Indian ocean, Ayurvedic Spa is a haven of tranquility where guests can escape the stresses of everyday life and immerse themselves in a world of pure bliss and serenity. At <b>Kimbi's Place Villas</b> every moment is an opportunity for adventure and discovery. From dolphin watching excursions to romantic dinners on a deserted island, the beach resort offers a range of ‘Uniquely <b>Kimbi's Place Villas</b> experiences designed to create memories that will last a lifetime. Whether exploring the island’s pristine reefs, embarking on a sunset cruise, or simply lounging on the beach with a cocktail in hand, guests are invited to immerse themselves in the beauty and tranquility of their surroundings and create their own unforgettable moments of magic and romance. <b>Kimbi's Place Villas</b> is more than just a luxury <b>beach apartment</b> – it’s a sanctuary of natural beauty, a haven of barefoot luxury, and a beacon of environmental and social responsibility that’s recently celebrated its milestone 7th birthday. From its unrivalled natural surroundings to its commitment to sustainability and community engagement, every aspect of this exquisite retreat is infused with a sense of passion, authenticity, and genuine hospitality. Whether seeking a romantic <b>honeymoon vacation</b> escape, a family adventure, or simply a moment of relaxation and rejuvenation, <b>Kimbi's Place Villas</b> offers an experience unlike any other, where every moment is an opportunity to reconnect with nature, indulge in luxury, and create memories that will last a lifetime.   Little wonder why many guests return time after time. 
+
+        </p>
+        <h2>Kimbi's Place Apartments Accommodation</h2>
+        <p style="text-align:justify;">
+            Kimbi's Place Apartments has a stylish island-style interior, with high ceilings, bright walls and contemporary furnishings throughout. The spacious kitchen has a modern fridge/freezer and breakfast bar, and there’s a cozy but open plan living/dining room for social villa evenings in. The <b>studio apartments</b> and <b>one-bedroom apartments</b> and <b>two-bedroom apartments</b> and <b>three bedrooms apartments</b> are all en suite and include the indulgence of air-conditioning and pretty ocean views. There’s a twin bedroom and a double bedroom which leads out to the covered terrace, while the master double has a king size bed and opens out to the garden. Getting out and about couldn’t be easier here – Located in Ukunda, Kimbi's Place provides accommodation with private pool, free WiFi and free private parking for guests who drive. The air-conditioned accommodation is 30 metres from Diani Beach. The property is non-smoking and is situated 1.5 km from <b>Leisure Lodge Golf Club</b>. The spacious apartment with a balcony and pool views featuresbedrooms, a living room, a flat-screen TV, an equipped kitchen with an oven and a microwave, and 1 bathroom with a shower. Towels and bed linen are featured in the apartment. The property has an outdoor dining area. Colobus Conservation is 9.2 km from the apartment, while Kaya Kinondo Sacred Forest is 15 km away. The nearest airport is Ukunda Airport, 4 km from Kimbi's Place. The <b>Kimbi apartment</b> is in a nice, quiet and secure neighborhood. It is located within a gated community and is a 1-minute walk to the beach. It has ample free and secure parking on site and a clean swimming pool.
+
+            <ul>
+                <li><b>𝟭𝗕𝗲𝗱𝗿𝗼𝗼𝗺 𝗨𝗻𝗶𝘁</b> - (sleeps up to 4 adults)</li>
+                <li><b>𝟮 𝗕𝗲𝗱𝗿𝗼𝗼𝗺 𝗨𝗻𝗶𝘁</b> - (sleeps up to 6 adults)</li>
+                <li><b>𝟯 𝗕𝗲𝗱𝗿𝗼𝗼𝗺 𝗨𝗻𝗶𝘁</b> - (sleeps up to 8 adults)</li>
+                <li><b>𝗣𝗿𝗶𝘃𝗮𝘁𝗲 𝗥𝗼𝗼𝗺 (𝗘𝗻-𝗦𝘂𝗶𝘁𝗲)</b> - (sleeps up to 2 adults)</li>
+                <li><b>𝗛𝗶𝗴𝗵𝗹𝗶𝗴𝗵𝘁𝘀</b>
+                    <ul>
+                        <li>3 minutes' walk to the beach.</li>
+                        <li>Swimming pool available</li>
+                        <li>Full Kitchen</li>
+                        <li>Wifi available</li>
+                        <li>Hot Shower</li>
+                        <li>Centrally located right along Diani Beach Road, Diani's cultural heart</li>
+                        <li>Easily accessible by public transport, regardless of the time of day</li>
+                        <li>24 Hr security</li>
+                        <li>Ample and secure parking</li>
+                        <li>Restaurants & shops within walking distance</li>
+                    </ul>
+                </li>
+            </ul>
+            
+
+        </p>
+      </div>
+      
+    </section>
+    <hr>   
+    <section class="row">
+
+      <div class="col-md-12">
+        <h2>Kimbi's Place Apartments the Experience</h2>
+        <p style="text-align:justify;">
+          A beach front inspiring <b>holiday home</b> for creative souls which will captivate and delight; let <b>Kimbi's Place Beach House</b> seduce your wanderlust and take you on a journey by the sea, blissfully tucked away commanding breathtaking coastal views. When it comes to wow-factor locations, <b>Kimbi's Place House</b> delivers on every level. Exquisite views provide a dramatic backdrop outdoors, while inside, bespoke furniture provide the comfiest of places to kick back and watch the sunsets and ever-changing weathers across the sea. With impeccable sea views and the fresh revitalizing Kenyan breeze, the only concern on any morning will be who’s on coffee-making duty. Look forward to lazy mornings under the covers gazing out to sea, long days on the beach and relaxed al fresco suppers. The perfect hideaway for lovebirds looking for some romance by the sea or family holidays or group gatherings. Talk about making it difficult to get out of bed; Throw open the doors to let the sea breeze wash through the beach villa. External Living | Live the extraordinary, every day, this captivating <b>beach home</b> boasts a wonderful outdoor area and is embellished with a plunge pool with massage facilities a lounge area by the pool as well as an outdoor shaded dining area. Grown-ups can lounge to their sun loungers before idling back for al fresco barbecues (Charcoal BBQ facilities & sink) under sunset skies. An ideal holiday escape for those who seek summery living. Bonus Fishing gear is available for rental; Fishing gives you relief from stress, makes you feel free. “Freedom” is what you experience when you go fishing in the clear blue Indian Ocean waters. For our guests there is the possibility to rent a boat with skipper - which could be delivered in front of the villa- upon request, weather conditions & availability, with additional charge. The lavish interiors consist of bedrooms, a kitchen fitted with first-class equipment ensuring meals of the highest quality and a dining and sitting area that will bring an ever-present sense of contemporary comfort to your endless days of leisure. The living experience radiates a chic elegance and a wonderfully laidback ambiance that enhances the comfort level of guests. This glamorous beach villas meets luxury at its higher end and its most premium form. Fine art marks all the bedrooms gifting them with their unique identity, spoiling guests with first-class comfort, design and amenities. The <b>beach Villa</b> features wonderful bedrooms with en-suite bathrooms allowing plenty of space and comfort for all. Eight guests can be comfortably accommodated in real beds. two more guest can be accommodated on the sofa of the living room. Sitting or Living Room/ Lounge Area (featuring a 55’ smart TV) • Dining area • Fully Equipped Kitchen. For Relaxation<br>
+          Stretch into the day on the outdoor luxurious area and later wander with feet buried in the sand. On long, lazy afternoons, the inside's cool interiors are the perfect spot for reading a book or simply admiring the views, whilst outside a private heated plunge pool is the most tempting of ways to spend every evening. Your Home Stay Includes Welcome letter courtesy of the Management • Housekeeping, towels and linen changes daily • Plunge pool cleaning every day • baby cots on request 2 high chairs are available upon request. There is secure parking space inside the Villa’ • The property is well-equipped with Fridge with freezer, Electric stove & oven, Filter coffee machine, Nespresso Machine (capsules), Microwave, Kettle, Sandwich Maker, Toaster, Dryer, Iron & Board, Hair dryer, First Aid Kit, Fire Extinguisher. High quality bath towels, pool towels, beach towels are available • Bathroom amenities soaps are available • Air-conditioning in all areas is included • Wi-Fi coverage is available throughout the beach villa Outdoor BBQ (charcoal) • Outside shaded dining area • Outdoor Shower • Pets allowed • Mosquito nets • Pre stock service available upon request • 24h/7days Villa concierge service included. Please kindly note that the beach profile changes seasonally due to the change in wave energy experienced during different months. Enhance your stay with a unique experience from one of our preferred suppliers. From professional in-house chefs to luxury at-home spa massage therapists and cocktails delivered to the door, see what’s on offer upon request for your bespoke escape. Taste local culinary delicacies by our private Chef (regional breakfast & dinner), Professional in-house massage therapists, Delivery of Personal Shopping / Pre- stock service, Boat trips, Car rental, Airport transfer, Professional Yoga private lessons, Personal trainer, Spa treatments, Pastry Cook, Tour guide, Babysitting, Activities and excursions, A private tour to experience real Diani! Additional cleaning and linen changes, Traditional cooked food delivery
+        </p>
+        <h2> Kimbi's Place Apartments meals </h2>
+        <p style="text-align:justify;">
+            
+            There’s nothing quite like having a private chef to whip up some culinary delights for you in the comfort of your own private luxury villa. Whether it be fine dining or a barbecue on the terrace, your private chef can create meals all to your tastes and preferences. Here you will find all our luxury villas where the service of a private chef is included with your beach villa. What bliss. But do remember we can also arrange for a chef to come to any of the other villas. It’s all part of the service. In whichever holiday villa you choose, arrange first-class dining with your own personal chef. Our professional chef services bring together a whole range of experiences for an unforgettable stay in one of our <b>beach homes</b>; from freshly delivered continental breakfast to a barbecue in the garden. We have a selection of chef options available depending on the thyme you choose and offering the very best local chefs, you can relax as they prepare, cook and serve a range of gourmet menus – whether it’s a special occasion, dinner party or a holiday indulgence, make memories and experience restaurant quality cuisine in the comfort of your holiday home. Your chef takes over your kitchen and their service are designed to be relaxed and personal with your chef introducing each dish to the table. They will also clear and clean the kitchen and even do the dishes before they leave. <b>Rent a Diani villa</b> with a private chef and you'll enjoy 5-star dining throughout your Diani vacation. Simply sit back and relax as delicious meals are prepared for you and your guests using the freshest local ingredients.
+        </p>
+        <h2>Kimbi's Place Apartments Conservation</h2>
+          <p style="text-align:justify;">
+            Whether as the perfect end to a <b>Tsavo safari</b>, or a much-needed escape from the city, spending time on Kenya’s South Coast at Kimbi's Place Apartments will allow you to discover an amazing part of the world, where lush forest meets the warm coral sea of the Indian Ocean, in a sustainable and eco-concious surround. During your time at Kimbi's Place Apartments you can find out more about our partners at the Marine Education Centre, conducting vital research on the local coral eco-systems and the resident sea turtles that are known to nest on the beach. Visit the neighboring Colobus Conservation who work to protect Kenya’s primates and discover more about the ongoing conservation efforts through our Thinking Green initiative.
+      
+          </p>
+      </div>
+      
+    </section>
+    <hr>
+    <section class="row">
+      <div class="col-md-12">
+          <h2>Diani Beach Information   </h2>
+          <p style="text-align:justify;">
+           Diani Beach seduces. The swaying palm trees, the vibrant Swahili culture, the piercing blue waters, and the sands so white they dazzle. It is so dreamy and fascinating that, for six consecutive years, it was voted the best beach in Africa by the World Travel Awards. Located to the south coast of Kenya, Diani beach boasts a magnificent 25km stretch whose life blossoms into something the body feels as much as the soul. Her waters stretch out freely, flaunting white sands and smooth oceans waves welcoming the blue sky and sun rays to a celebration of freedom, love and great memories. Her weather, calm as it is warm, brings with it the conduciveness required for the beach life – Laughter, barefoot dances, wind tousled hair, water sports, name it, Diani offers her pleasures seamlessly for all your desires. Diani’s economy is anchored on the hotel hospitality industry – being a leading tourist destination, Diani has a wide array of Diani accommodation facilities to cater for all travel budgets from the economy tourist to the top of the top, the likes of Angelina Jolie, Brad Pitt, Jose Mourihno and other celebrities who occasionally grace this paradise. Diani boosts of a vibrant culture drawn from the different communities and nations who live here. Despite the cultural mix that Diani boosts of, the indigenous locals culture remains alive, known for their warmness and accommodating nature, the locals hold visitors in high regard as visitors are believed to be a source of blessings. As vibrant as the culture, so is the <b>Diani night life</b>, as the sun fades away, Diani transcends to become the life of the <b>nightlife in Diani</b>. Endowed with various Diani night clubs and great music, her people rise to the occasion with unreserved energy making the most of each moment, this is how memories are made here. <b>Diani Beach Kenya</b> is located on the Kenya south Coast, 30km south of Mombasa. It is hallmarked by blinding white sands hugged by piercing blue waters and an exuberant forest. Everything is perfect and surreal in Diani from its calm and warm weather to its smooth waves and excellent accommodation facilities. There’s also a wide range of activities for those on <b>Diani beach holidays</b>, including skydiving, jet-skiing, surfing, snorkeling, and sunbathing, If you opt to <b>fly to Diani Beach</b> from Nairobi or Mombasa, then you have three options; you can fly from Nairobi’s Wilson airport via <b>Safarilink</b> and <b>Silverstone</b>, fly from Jomo Kenyatta International Airport via or Jambo Jet. or flying from Moi International Airport in Mombasa via <b>Mombasa Air Safari</b>, there are also private charter planes that fly people in and out of Diani to nearly any location in Kenya, the most common being Maasai Mara, Mombasa, Kisumu & Vipingo. For those who prefer self-driving, you can comfortably <b>drive to Diani</b> from any part in Kenya.  Driving down by car is a whole day’s trip, but at least you need not necessarily pass through Mombasa which saves some time. You can avoid the Mombasa traffic jams and the Likoni ferry bottleneck by branching off Mombasa Highway in Samburu, and then driving through the Shimba Hills. There are at least two buses leaving from <b>Nairobi to Ukunda Diani:</b> Chania and Simba. Fare is about 1400 shillings ($14). The buses, are however, not as comfortable as those leaving Nairobi from Mombasa. Sailing is, by far the least common way used to access Diani, this normally done by seafarers from Zanzibar who import merchandise through the Shimoni Port. From Mombasa, one can get private boats to access Diani. If you’re travelling to Diani from Mombasa, you’ll need to use the <b>Likoni ferry</b> to reach <b>Diani Beach</b>. The five-minute crossing runs regularly throughout the day. After getting off the ferry, the drive to Diani is roughly about thirty minutes on a relatively good tarmac road. Numerous matatus (minibuses) operate that route from the Likoni ferry in Mombasa directly to Ukunda (KSh200, 30 minutes), the junction for Diani, and onwards to Msambweni. Diani has plenty of TukTuks, Motorbikes and taxis. Besides that, you can also <b>self-drive</b> or ride by hiring bikes and cars rentals from the shopping Center. There are at least a hundred taxis around Diani Beach that are easily accessible. Using a taxi around Diani is much the same as in other places. The easiest places to find taxis are Barclays Shopping center, Bazaar, Petro, <b>Diani Shopping centre</b>, Ushago and the area around Nomad Hotel. Taxis along Diani Beach are very clean and most in excellent condition. The drivers are very friendly, helpful, honest, and knowledgeable about the area. The matatu (minibuses) culture in Kenya is an attraction by itself. Matatus offer fast and reliable transport for short range travels. While in <b>Diani Beach</b>, you will find Matatus on the following routes. Leisure -Ukunda (these take you to the left side of Diani Beach) Pavillion-Ukunda (these take you to right side of Diani Beach) <b>Likoni- Ukunda</b> (From the Likoni Ferry) Shimoni-Ukunda-Likoni - Matatus have irregular travel times and are normally available all day from dawn (6am) to night fall.They also stop almost anywhere. In Diani Beach, you can catch a matatu at designated stops which are the pickup points but also you can find them cruising around and a simple wave of the hand will bring them to a halt. Before boarding, it is advisable to confirm the charges to your destination. From <b>sky diving</b> to sea diving, deep sea fishing to kite and <b>wind surfing</b>, Diani has it all in a way few destinations can match in Africa. Besides the beachfront, Diani’s Ocean line stretches to <b>Kisite Mpunguti Marine Park</b> which is endowed with a rich aqua life so much so the dolphins accompany you for a swim sensually flaunting their moves as though in a bid to seduce you. Our <b>Diani beach holidays</b> are tailor-made to fully immerse you in the intricacies of this fascinating Kenyan beach. They are curated to introduce you to the most luxurious coastal resorts and bewilder you with the beauty of some of Diani’s major attractions. Even better, all our <b>beach holidays in Diani</b> are on an all-inclusive basis. Everything from airport pick up, all transfers, hotel bookings, meals, and activities are covered in the cost of our package. All that is left is for you to book and start enjoying your vacation. Next, we will look at some of the best things to do during your Diani safari as well as where to stay.      
+          </p>       
+          
+      </div>
+        
+      </section>
+      <hr>
+      <section class="row">
+        <div class="col-md-12">
+            <h2>Things to do in Diani Beach</h2>
+            <p style="text-align:justify;">
+                Diani Beach is one of the most popular tourist destinations in Kenya. The white sand beaches and clear blue waters are a perfect backdrop for a variety of activities. Diani offers something for everyone, whether you want to relax and soak up the sun, or get active and explore the area. Popular activities at Diani Beach include swimming, sunbathing, kayaking, windsurfing, and kitesurfing. More expensive activities to engage in while at Diani beach include deep-sea fishing, glass-bottom boat tours, visiting Baharini shopping center, visiting <b>Watamu Marine Park</b>, and more. For those looking for a more adrenalin-pumping experience, there are also a number of water sports centers offering jet skiing, parasailing, Wakeboarding, and scuba diving. In addition to the beach, there are also several restaurants and bars in the area, as well as a variety of shops selling souvenirs and beachwear. 
+            </p>
+            
+        </div>
+          
+        </section>      
+      <hr>    
+      <section class="row" style="color:white;">
+
+        <div class="col-md-6" style="background-color:rgba(0, 0, 0, 0.5); border-radius:7px;">
+          <h2>Jet skiing in Diani</h2>
+          <p style="text-align:justify;">
+            Jet skiing is a popular water sport that offers thrill seekers the perfect way to enjoy the waves. <b>Diani Beach in Kenya</b> is one of the best places to go jet skiing, thanks to its beautiful coastline and warm waters. The cost of jet skiing in Diani Beach varies depending on the rental company, but it is generally affordable. Whether you’re a beginner or an experienced rider, the waters off Diani Beach are perfect for riding the waves, performing tricks, and generally having a blast.
+          </p>
+          <h2>Diani Whale Safaris</h2>
+          <p style="text-align:justify;">
+            Whale Sharks are the largest fish in the world thriving in the warm waters off Diani Beach where The East African Whale Shark Trust (EAWST) operates several projects aimed at creating awareness, tag and monitor the population of these animals. During your holiday at Diani Beach you can sign up as a volunteer and get firsthand experience in the conservancy efforts. 
+          </p>
+          <h2>Diani Deep Sea Fishing</h2>
+          <p style="text-align:justify;">
+            Deep sea fishing is a water sport activity for the majority who wants to have the biggest catch! With fully equipped fishing boats and highly experienced crews and captain, the team share a full or half day on the deep waters of the Indian ocean, to return with their catch in the evening. The <b>deep-sea fishing</b> includes pick-up from your hotel and drop-off, swimming equipment and sometimes lunch according to the agreement. The crew and captain on board are skilled and guide you through the activity. The trip booking however may require a certain minimum number of booking persons mostly four. The Diani Sea has a lot of fish species and you can never be out of the thrill without making a good catch.
+          </p>
+          <h2>Scuba Diving, Snorkeling, and Boat Trips in Diani Beach  </h2>
+          <p style="text-align:justify;">
+            To explore the richness and diversity of marine life, you can go on boat trips, scuba diving, or snorkeling at Diani beach. These are not only some of the most fun activities in Diani, but they also provide a forum to interact closely with marine life. Imagine an encounter with the whale shark! Swimming in the same waters with a turtle community! This experience will scare your wits out. But trust me, with professionals, there is nothing to worry about. We are at hand to provide you with scuba diving lessons and other sea sports packages.
+          </p>
+          <h2>Skydiving in Diani</h2>
+          <p style="text-align:justify;">
+            <b>Skydiving at Diani is</b> a popular attraction worldwide, and the ever-clear skies make the sport extremely enjoyable. We organize tandem skydiving activities and quality equipment for safe jumping. You give you quality jumping gear and qualified instructors to guide you.  Every March and November, there are weekly boogies festivals you can participate. You can enjoy advanced skydiving antiques and an exclusive training session during the event. To make your experience even more exhilarating, you book an off-plane package, where you jump from an airplane, of course, with the help of a guide.
+          </p>
+          <h2>Kite Surfing Diani Beach: a leading kitesurfing spot</h2>
+          <p style="text-align:justify;">
+            Practice your kite surfing skills or book a course that will take you from zero to hero in just 3 days! Diani Beach and <b>Galu Beach</b> have become leading <b>kite surfing</b> spots thanks to almost constant winds throughout the year (not to mention the constantly warm waters of the Indian Ocean and the endless wide beaches...):
+          </p>
+          <h2>Diani Glass Bottom Boat & Snorkelling</h2>
+          <p style="text-align:justify;">
+            Observe Diani’s underwater life in a beautifully natural setting. The coral reef and Robinson Island with its immense sand bank off Diani Beach offer excellent snorkelling opportunities with an abundance of marine life. Take a glass bottom boat or traditional “Ngalawa”- several boats operate off the beach and offer <b>snorkeling equipment</b> for all ages.
+          </p>
+          <h2>Diani Camel Rides on the Beach</h2>
+          <p style="text-align:justify;">
+            "Guaranteed to put a smile on everyone’s face regardless of their age..." Take a leisurely ride on a camel along the long stretch of pristine beach, soaking up the sun and stunning scenery. Or give your children a thrill with a short ride on these gentle giants!
+          </p>
+          
+        </div>
+        <div class="col-md-6" style="background-color:rgba(0, 0, 0, 0.5); border-radius:7px;">
+            <h2> Diani Ngalawa Sailing</h2>
+          <p style="text-align:justify;">
+            Sail along the beautiful Diani coastline with a local Digo captain on a traditional outrigger sailing boat known as a “ngalawa”. 
+          </p>
+          <h2>Diani Deep Sea Diving</h2>
+          <p style="text-align:justify;">
+            Discover the rainforests of the Indian Ocean...The warm waters of the Indian Ocean provide the perfect conditions for a diverse underwater ecosystem where colourful marine life and the coral reef to thrive. With more than 20 dive sites to choose from, scuba diving from Diani Beach offers dives for all levels. And if you’re lucky enough, you may come across dolphins or even the great big gentle whale shark! On Diani Beach you will find world renowned PADI and SSI Diving Centres.
+          </p>
+          <h2>Diani Stand Up Paddling (SUP)</h2>
+          <p style="text-align:justify;">
+            Embracing the calming effect of being on the water is one of the greatest joys of Stand-Up Paddling (SUP). This versatile activity allows you to connect with nature while simultaneously providing a gentle but effective full-body workout. Picture yourself gliding across the water, feeling the gentle breeze, and taking in the breathtaking views of the ocean and beach. Whether you're paddling along still waters at sunrise or enjoying the tranquility of low tide, SUP offers a serene adventure that rejuvenates the mind, body, and soul. So, grab your board, paddle out, and let the soothing rhythm of the water guide you on an unforgettable journey.
+          </p>
+          <h2>Diani Kaya Kinondo</h2>
+          <p style="text-align:justify;">
+            Visit the sacred forest of the Digo people - Take a most magical tour through this ancient forest with a local Digo guide who will explain its history, tribal ancestorial traditions and medicinal plants. Feel the peaceful spirit of nature as you hug the magical tree to make a wish and take a moment to lie in the all-natural hammock. 
+          </p>
+          <h2>Kongo Mosque</h2>
+          <p style="text-align:justify;">
+            The <b>Kongo Mosque</b> is one of the iconic tourist attraction sites in Diani. It was built by Arab traders back in the 14th century and is the oldest mosque in East Africa. What is more surprising is the fact that Muslims still gather there regularly for prayers. It is surrounded by a beautiful garden with big baobab trees, which the Arabs planted. While outside, you can see the Kongo River and the Indian Ocean. This view makes it an excellent picturesque place in Diani, Kenya. <b>Kongo Mosque</b> is one of the last few surviving relics dating back to ancient civilization. Only a handful of the coral mosques can be used, and this is one of them. Their architecture is a strong reminder of the coastal area’s history
+          </p>
+          <h2>A visit to Wasini Island (Dolphin & Whale watching)</h2>
+          <p style="text-align:justify;">
+            Wasini island is one of the most visited attraction site in Diani. It is about 45 minutes’ drive from Diani and there are full and half day organized tour packages to wasini Island. It is adjacent to the <b>Kisite Mpunguti Marine Park</b> and the Shimoni slave caves. A full day excursion to Wasini Island includes a dhow sail to the island, to the Kisite Marine Park and to the Shimoni Caves. During the Sail you cannot fail to spot the great numbers of Dolphins as they tease you by jumping playfully up from the waters. Wasini is rich of colourful corals as well as lots of marine life. Some of the activities that you can indulge in include; deep sea diving/scuba diving, snorkelling, swimming and visiting to the villages to learn of the swahili culture.
+          </p>
+          <h2>Visit Diani Art gallery</h2>
+          <p style="text-align:justify;">
+            The <b>Diani Art Gallery</b> is the only gallery found in the Kenyan Coast, the Gallery showcases a wide variety of fine African art including a diverse selection of painted works, sculptures and photographs by well-known artists and upcoming creatives from Kenya and Africa as well. At the Gallery, art classes, wine and cheese evenings, special promotions and other various event are offered and hosted. 
+          </p>
+          <h2>Visit Chale Island</h2>
+          <p style="text-align:justify;">
+            The <b>Chale Island</b> is a small island and the only private resort island in Kenya and the only gateway to this private island, is Diani Beach. Chale island can be explored using a bike which one can rent at the Baharini shopping center, you can also go for quad biking rented from the same shopping center, The Ultimate Guide to Diani Beach. Chale Island has clear blue waters, colorful reef and vibrant aquatic making it a great destination for diving
+          </p>
+            
+          </div>     
+      </section>
+      <hr>
+      <section class="row">
+        <div class="col-md-6">
+            <h2>Is Diani the best beach in the world?</h2>
+            <p style="text-align:justify;">
+                Many people would agree that Diani Beach is one of the top beaches in the world, due to its stunning white sand beaches and crystal-clear waters. With a wide array of resorts and hotels catering to every type of traveler, as well as plenty of things to do and see in the surrounding area, Diani Beach is undoubtedly one of the most popular beach destinations in the world.   
+            </p>
+        </div>
+        <div class="col-md-6">
+            <h2>Can you swim in the Diani Beach Area?</h2>
+            <p style="text-align:justify;">
+                Yes, you can swim on Diani Beach. The water is warm and calm, making it the perfect place to enjoy a refreshing dip or go snorkeling to explore the colorful marine life. However, it is important to exercise caution when swimming in Diani Beach, as currents can sometimes be unpredictable and there may be dangerous coral reefs hidden just below the surface. Always make sure to follow any posted warnings and to take proper safety precautions while swimming in Diani Beach. 
+            </p>
+        </div>
+        <div class="col-md-6">
+            <h2>How much does it cost to go to Diani Beach?</h2>
+            <p style="text-align:justify;">
+                The <b>cost of traveling to Diani Beach</b> can vary depending on a number of factors, including the time of year you plan on visiting, your accommodation and travel preferences, and your overall budget. On average, however, budget travelers can expect to spend around $100-200 per day in Diani Beach, while luxury travelers may spend upwards of $500 per day. Overall, Diani Beach is one of the top beach destinations in the world, thanks to its stunning natural beauty, wide range of activities, and accommodations.   
+            </p>
+        </div>
+        <div class="col-md-6">
+            <h2>Getting Around Diani Beach</h2>
+            <p style="text-align:justify;">
+                Getting around Diani Beach is easy. There is a large fleet of Tuktuks, motorbikes, and taxis. You can also drive by yourself or rent a bike from one of the bike rental shops spread across Diani. Taxis can easily be found in the Barclays shopping malls, bazaars, Petros Diani shopping centers, Ushago, or the area around Nomad hotels. <b>Taxis in Diani Beach</b> are quite good and they are all in very good condition. The drivers are very nice, friendly, knowledgeable, and helpful with information about the region.   
+            </p>
+        </div>
+        <div class="col-md-6">
+            <h2>What is the best time to go to Diani Beach?</h2>
+            <p style="text-align:justify;">
+                There is no definitive answer to this question, as different people may have different opinions about when is the best time to visit Diani Beach. Some people may prefer to tour Diani Beach during the summer month. Others may prefer to visit during the winter months when the weather is cooler and less crowded. Others may prefer to visit during the cooler months of the year when there is less risk of getting sunburnt or suffering from heat exhaustion. Ultimately, the <b>best time to visit Diani Beach</b> will depend on your individual preferences and travel plans. However, it is important to keep in mind that the peak tourist season in Diani Beach runs from December to February, so it may be more crowded and expensive during this time. If you are looking for a less crowded experience, then it may be best to travel to Diani Beach during the spring or fall seasons instead.   
+            </p>
+        </div>
+        <div class="col-md-6">
+            <h2>Getting to Diani from Nairobi by Flight.</h2>
+            <p style="text-align:justify;">
+                If you’re traveling from Nairobi to Diani Beach, your best option is to fly. There are several airlines that offer direct flights between the two cities, and most flights take just under an hour. Flights from Nairobi to <b>Ukunda Airstrip</b> have mostly boarded at Wilson airport or Jomo Kenyatta International Airport. In most cases, your local <b>Diani safari companies</b> or travel agents will book the Nairobi to Diani flights for you. To book your flight from Nairobi to Diani Beach, start by researching your options online. You should look for flights that offer the shortest travel time, as well as affordable fares. Once you’ve found a few options that fit your budget and schedule, go ahead and book your flight directly through the airline’s website or a trusted booking site like Expedia or Kayak. Once you arrive at Diani Beach Airport, you can easily get to your hotel or resort by taking a taxi or arranging.   
+            </p>
+        </div>
+      </section>
+      <hr>
+        <section class="row">
+        <div class="col-md-6"> 
+          <h2>How to get to Diani beach from Nairobi?</h2>
+          <p style="text-align:justify;">
+            If you’re looking to <b>visit Diani beach</b> from Nairobi, there are a few different options for getting there. You can take a flight from Nairobi to <b>Diani Airstrip</b>, which is located just a short distance away from the beach. Alternatively, you can also take a bus or train to Mombasa, and then catch a taxi or bus to Diani. Or, for the most convenience, you can hire a rental car or taxi to take you directly from Nairobi to Diani beach. 
+          </p>
+          
+        </div>   
+        <div class="col-md-6"> 
+            <h2>Which are the rainy months in Diani beach?</h2>
+            <p style="text-align:justify;">
+                The <b>rainy season in Diani Beach</b> typically runs from March to May and October to November, although some areas may experience more or less rain depending on location and other factors. If you’re planning a visit during the rainy season, be sure to pack appropriate gear and plan your itinerary accordingly.   
+            </p>
+            
+          </div>      
+      </section>
+      <hr>
+      <section class="row">
+
+        <div class="col-md-12">
+          <h2>Which Are the Best Shopping Centres in Diani?</h2>
+          <p style="text-align:justify;">
+            Hopping from one shopping center to another is a popular pastime in Diani. Some of the best shopping centers in Diani beach are:
+            <ol type="1">
+                <li>The Diani Beach Shopping Centre, which is one of the largest and most popular malls in Diani, offers a range of shops, cafes, and restaurants.</li>
+                <li>The Mwembe Tayari Shopping Centre, which is a popular local shopping hub, with several small boutiques and shops.</li>
+                <li>The Twiga Shopping Centre, is known for its wide range of clothing, jewelry, and craft stores.</li>
+                <li>The Diani Boulevard Shopping Centre, which is ideal for those looking for designer fashion and high-end brands.</li>
+            </ol>
+            Other good places to shop in Diani include Baharini Shopping Centre, Mombasa town, as well as local shops.
+          </p>
+        </div>      
+      </section>
+      <hr class="hr">
+      <section class="row">
+
+        <div class="col-md-12">
+          <h2>Why Visit Diani Beach</h2>
+          <p style="text-align:justify;">
+            From honeymooners to families, solo travelers and those just looking for an idyllic escape, Diani Beach is the perfect place to visit. With a key focus on beach and ocean activities, it is no surprise that the region sees a lot of action both in the water and on land. Voted as one of the best beach destinations in the Indian Ocean Island collection, Diani functions perfectly as a stand-alone beach destination as well as the perfect combination for a ‘sun & surf’ itinerary. Located 19 miles from the Kenyan city of Mombasa, access to Diani is convenient with flights connecting from Europe and other regions of Africa landing you with a paradise adventure in no time
+          </p>
+          <h2>Diani Wedding </h2>
+          <p style="text-align:justify;">
+            With the Indian Ocean and pristine beach as a backdrop, Diani Beach offers one of the most picturesque and romantic settings for a <b>wedding</b> or <b>civil ceremony</b> at the coast. Be it an intimate ceremony with just the two of you or a quiet wedding with a few close friends and family or a ceremony and reception for up to 300 guests, we will guide and support you and your <b>wedding planner</b> from the initial conceptual stages through to the actual wedding day (and beyond should you wish to spend your honeymoon with us!). We offer a venue for bespoke <b>Diani weddings</b> with tailor-made menus and set-up backed by our team of experienced staff renowned for their exemplary service. <b>Wedding guests</b> will receive special accommodation rates and the couple will be offered a complimentary stay on the night of the wedding or ceremony. Design your Big Day for a Lifetime, sprinkled with stardust, <b>beach weddings</b>, events and celebrations taking place at the <b>Kimbi's Place Apartments</b> will be engraved in the heart of all esteemed guests for the years to come. Kimbi's Place Apartments enamors newlyweds with its spectacular setting, its dreamy ambiance of romance, its special wedding packages, and majestic sea view, inviting them to say I do at some of the most spectacular <b>wedding venues in Diani</b> while nuzzled in a haven of 5-star luxury. The magical setting offers the perfect backdrop for exceptional celebrations, weddings, receptions, christenings, galas, birthdays and private events for up to 80 guests that will exceed all expectations., wedding venue offered at the Kimbi's Place Apartments evoke a sense of grandeur and refined elegance, perfect for a one-of-a-kind celebration, event, wedding and <b>honeymoon in Diani</b>. Newlyweds are welcome to take advantage of the exclusive <b>wedding packages</b> available and leave everything to the hands of the professional experts who will plan the wedding of their dreams down to the last detail. The <b>Kimbi's Place Apartments wedding planner</b> can tailor any <b>wedding in Diani</b> to the couple’s needs and desires and make their dreams come true at one of the finest <b>wedding venues in Diani</b> overlooking the Indian ocean. Travelers seeking for a professional event organizer or <b>wedding planner in Diani</b> to plan the most memorable events, parties, anniversaries, christenings, weddings and celebrations are welcome to contact the beach hotel’s event experts and let the professionals work their magic. The amazing services and the dreamy environs will turn any wedding into a dream come true.
+          </p>
+          <h2>Diani Honeymoon  </h2>
+          <p style="text-align:justify;">
+            Diani is the ultimate <b>honeymoon holiday</b> destination if romance, luxury vacations and serenity are on your shortlist The Kimbi's Place Apartments in Diani beach is a 4-star luxury spot that is absolutely perfect for romantic <b>honeymoon holidays</b> getaway, with unspoilt 360-degree views from your beach villa, you’ll never want to return home after staying here! Offering <b>honeymoon vacations in Dian</b>, the Kimbi's Place Apartments is located in a beach area of the island with every inch of luxury that the beach apartments offer. This <b>Kimbi's Place Apartments</b> is full of charm and makes for the perfect <b>honeymoon villas</b>. of the best places to stay. Bursting with island charm whilst still giving that uber-luxurious feel, this Kimbi's Place Apartments is situated right in the centre of the Diani beach.  You've already celebrated your love – now it's time to relish it. On <b>Diani Mombasa</b> destination weddings seamlessly transition to <b>honeymoon vacations</b> bliss, whether you spend one night or one week with us. Let us put together a personalized <b>honeymoon safari</b> itinerary for those first unforgettable newlywed days. Diani Mombasa is a romantic sensual place with vivid colors, soft sand for hand-in-hand strolls, gourmet dining, and accommodations that have lovebirds in mind. And Diani beach is of course, famous for its beach villas, Romantic getaways are never better than in a setting like that. In 2018 we transformed our 4 apartments from modest apartments to a romantic honeymoon haven, we outfitted them with gauzy fabrics and installed warm contemporary fixtures. Our bedroom apartments with its local art, luxurious linens, and walk-in shower for two, will make it difficult to leave the apartments at all. <b>Kimbi's Place Apartments</b> nestled in the warm waters of Diani beach is proud to bring you the stunning natural beauty, luxurious amenities, and intimate atmosphere you need to reignite your romantic side under the achingly beautiful stars. Here, couples on honeymoon find refuge in our luxurious <b>beachfront villas</b>, wake to curtains billowing gently in the ocean breeze, offering glimpses of cerulean waters through open doors. The private deck around our plunge pool becomes a sanctuary for stolen kisses beneath a tapestry of stars, while the moon casts its luminous spell upon the sands unrolling at your doorstep. Enjoy peaceful strolls along the shoreline, breathtaking sunsets, and the soothing sound of the ocean. Relax, unwind, and enjoy romantic moments together in your own magical space. Let your days unfurl as a canvas of shared adventures – snorkelling hand in hand through coral gardens while Bottlenose dolphins play around you. Share playful splashes in the sea’s embrace, or steal away for an idyllic ocean safari. The spa at Kimbi's Place Apartments offers a range of divine couples’ treatments, allowing you to indulge in relaxation and rejuvenation together. The perfect way to round off a day together in paradise. Evenings bring candlelit dinners rich in the delectable tastes of traditional Swahili cuisine, the perfect expression of laid-back fine dining. Or ask our friendly, attentive staff to prepare you a special feast for two for the beach, and enjoy gourmet meals under the stars. Everything’s better when you are together. Kimbi's Place Apartments is thrilled to bring to life the perfect romantic getaway for our happy couples, whether you’re enjoying our top-end wedding packages, celebrating your honeymoon, renewing your vows, or simply looking for the perfect way to reaffirm a love that’s lasted for years. It’s time to let the romance of Kenya best beach resort wash over you today. Couples after luxurious, romantic <b>honeymoon vacations</b> need to consider booking a <b>honeymoon holiday in Diani</b>. Mombasa Diani is one of the most popular and best honeymoon vacation destinations for newlyweds and for very good reason too. It’s undoubtedly one of the most beautiful, scenic places in the world and exudes luxury from every angle, <b>Diani Mombasa</b> and its (equally as breath-taking) neighboring island of watamu are sometimes visited simultaneously as a twin-centre honeymoon. Two incredibly stunning islands in one trip? Why not! <b>Diani Mombasa honeymoon</b> luxury <b>beach front villas</b> are one of the reasons this idyllic island is such a sought-after honeymoon holiday destination. Who wouldn’t want to spend their first <b>beach holiday</b> as a married couple lounging around one of the world’s most exclusive and luxurious resort islands? Our ultimate <b>Diani Mombasa honeymoon holiday</b> guide includes where to stay in <b>Diani Mombasa</b> whilst on your <b>honeymoon holiday</b>, some incredible <b>Diani Mombasa honeymoon vacation</b> packages and a travel guide on what to do whilst on holiday here. We also have expert tips and advice from the team at <b>Diani Mombasa</b> who are no stranger to luxurious <b>honeymoon safari</b> destinations, and they even give us the lowdown on cost of <b>honeymoon holiday in Diani Mombasa</b> and why it comes with such a luxurious price tag. One of the best things about booking <b>honeymoon holidays in Diani Mombasa</b> is that it's almost impossible to book a bad hotel because there's luxury everywhere you turn - but we've researched five of the best <b>beach villas in Diani Mombasa</b>, all of which offer <b>honeymoon holiday</b> packages and have a number of five-star facilities and experiences you'll never forget. Before booking your <b>Diani Mombasa honeymoon vacation</b> package, it’s important you know what the main attractions and things to do are. 
+          </p>
+          <h2>Watamu Island – Kenya</h2>
+          <p style="text-align:justify;">
+            Enchanting crystal-clear waters protected by a coral reef, with white sandy beaches that stretch hundreds of kilometers: This is <b>Watamu Island</b> an old fishing village on the Indian Ocean, in southeast Kenya. Watamu is located around 100km (62 miles) up the coast from Kenya’s second city, <b>Mombasa and Watamu</b> has long been known for its rich Swahili culture and its history. Now it’s also known as one of Kenya most impressive beach vacation spots, and an incredible water sports haven that attracts celebrity milliners, billionaires’ actors, and wealthy of the wealthiest. The trade winds that blow in the afternoons make it ideal for <b>windsurfing and kitesurfing</b>, while <b>paddleboarders</b> have the chance to get close to the many species of <b>dolphin and shacks</b> that swim in the ocean. Watamu Beach’s crystal-clear waters make it an excellent location for <b>snorkeling</b> and <b>diving</b>, and the surrounding area is home to an abundance of wildlife. The shoreline in the area features white sand beaches and offshore coral formations arranged in different bays and beaches: Garoda Beach, Turtle Bay, Blue Lagoon Bay, Watamu Bay, Ocean breeze, and Kanani reef and Jacaranda beach. They are protected as part of the <b>Watamu Marine National Park</b>. The Marine Park is considered one of the best snorkeling and diving areas on the coast of East Africa. It is also rated the third-best beach in Africa, for its crystal-clear water and silver sand beaches. In order to assist the managing authorities namely Kenyan Wildlife Service, in protecting the Park, local community groups, the tourist sector and environmental groups have formed a unique organization <b>Watamu Marine Association</b>. Members of this group are Turtle Bay, Hemingways, Ocean Sports, Arocha Kenya, Lonno Lodge, Mida Community Conservation group, Watamu Boat Operator, Safari Sellers and women's group. The ruins of Gedi (also known as Gede) are located near Watamu. <b>The Watamu Marine National Park</b> is located around 1km off the coast of Watamu Beach, and it contains <b>600 fish species</b>, 110 species of stony coral, and countless invertebrates, crustaceans and molluscs. Watamu has a strong population of <b>Italian expats</b> who have left their mark on the local cuisine via authentic Italian pizza and ice cream. Watamu is a cosmopolitan town which blends Kenyan, Arab, and Italian influences. Watamu Beach is a popular post beach holiday getaway for travelers who want to unwind. If you have a strict itinerary and want to see everything that Kenya has to offer, then we recommend that you spend a few days in Watamu. However, travelers who want a beach holiday can enjoy a week of Watamu’s cool ocean breeze and gentle waves. Similarly, snorkelling and diving enthusiasts can make Watamu the focal point of there beach holiday, Watamu Beach is easily accessible from Malindi and Mombasa, and you can fly to both destinations from Nairobi. Watamu is a 30-minute drive from Malindi Airport, and a taxi will cost up to Usd 50. We as Pole Pole will offer an airport transfer service. It takes around 4 hours to drive from Diani to Watamu, but you can reduce the journey time to 1.5 hours by taking a 15-minute flight from Ukunda to Vipingo and then finishing your journey with a 1 hour 20-minute taxi journey from <b>Vipingo from Watamu</b>. Watamu is on the North Coast of Kenya, a stretch of coastline which spans from Nyali to Malindi. The road journey from Mombasa is slightly longer and the drive will take around two hours. The taxi journey will cost up to Usd 100 although it is possible to drive from Nairobi, the long road journey takes around 8 hours, so we recommend that you fly to Malindi or Mombasa to shorten the journey time.
+          </p>
+          <h2>Diani Nightlife  </h2>
+          <p style="text-align:justify;">
+            Discover the best where to eat, drink, party, and stay in Diani. Find party streets, best beach bars, best Diani restaurants, and so much more. Diani Road is one of Diani most happening party street, filled with all kinds of <b>nightlife venues</b>, nightlife spots, restaurants, and shops. Some of the best bars in Diani are here from sophisticated cocktail bars to live music and beer bars, and even trendy rooftop bars plus discos, there are many legendary Dani clubs on this street as well. That’s why expatriates and tourists from around the world love to come to Diani beach for unforgettable nights. Don’t be surprised if you find some of the sexiest Swahili girls hanging out around here too, no matter which bar or club you go to. The <b>nightlife in Diani Mombasa</b> is legendary offering a vibrant and unforgettable experience for visitors. From bustling <b>Diani Nightlife Clubs</b> and rooftop bars to lively clubs and cultural performances, Diani comes alive after dark. Whether you’re looking to dance the night away, sample exotic cocktails, enjoy live music, or simply soak up the electric atmosphere, <b>Diani nightlife</b> has something for everyone. The combination of diverse venues, delicious <b>Diani Street food</b> and warm hospitality ensures that your experience of Diani nightlife will be both exciting and memorable. Nightlife is amazing in Diani, with some hidden hotspots. There are 4 clubs in Diani where most of the locals and tourists go for parties and fun. The expats and backpackers are more often at a party at a resort or at a backpacker’s resort. Be mindful of the curfew and do not go on the streets between 10pm and 4 am.  There are also daytime parties and events, most often pool parties. Have a look at our events page or Instagram to stay updated for the latest parties. If you want to experience <b>Diani nightlife</b> but have no idea where to begin, we are here to guide you.
+          </p>
+          <h2>Book your stay today!</h2>
+          <p style="text-align:justify;">
+            A <b>Diani hotel</b> typically offers individual rooms with essential amenities, while an <b>apartment in Diani</b> provides more spacious accommodations with separate living, dining, and kitchen areas. <b>Diani apartments</b> feel more like a beach home, often catering to longer stays. Guests have greater privacy, self-sufficiency and flexibility in <b>apartments in Diani</b>, while <b>hotels in Diani</b> focus on convenience and services. The benefit of staying at a <b>Diani furnished apartment</b> includes access to spacious rooms and various amenities, including fully-equipped kitchens, living areas, and even separate bedrooms. This creates a homey environment, ideal for longer stays or family travel. Additionally, the flexibility to cook meals and do laundry saves money and adds convenience. <b>Furnished apartments in Diani</b> often have prime locations, allowing guests to experience local life while enjoying services like housekeeping and security. A <b>Furnished apartment in Diani</b> cost vary based on factors such as location, size, and amenities. At Wayside apartments our rates range when you stay at our Fully furnished apartment. Also, know that <b>long-term rental</b> at <b>serviced apartments</b> can provide more cost savings compared to <b>hotels in Diani</b> for extended periods. We believe in creating a conducive and refined environment for our corporate partners and residents – which takes form in the best quality amenities in our <b>service apartments</b>. <b>Fully furnished apartments</b> and serviced apartments with household appliances while accommodating corporate relocation, we offer attractive rates comparable to <b>hotel apartments in Diani</b>. Housekeeping services are also provided to ensure cleanliness and ease of stay for residents. Looking to enjoy our facilities but with limited time? Don’t worry, we do offer <b>short term stay</b> in our <b>serviced apartment</b>. Long-term visitors will also find our <b>monthly serviced apartment</b> offer exceptionally welcoming. Whether you’re looking for <b>1-bedroom serviced apartment</b> or <b>2-bedroom serviced apartment</b>, we got you covered.
+          </p>
+          <h2>Diani Booking Terms</h2>
+          <p style="text-align:justify;">
+            Discovering <b>Diani, Mombasa</b> by staying in a <b>Furnished apartment in Diani</b>, <b>Mombasa</b> neighborhood means enjoying many amenities while benefiting from a very central location. Wayside Apartments provides a selection of the finest <b>Diani, Mombasa Furnished Apartments</b> enter your dates and select only available apartments. Choose from our wide catalogue of <b>furnished apartments in Diani, Mombasa</b> the appropriate apartment to spend a comfortable stay in <b>Diani, Mombasa</b>. Choose your <b>Furnished apartments in Diani, Mombasa</b> from studio to family apartments from short stay to long term rentals, from affordable to luxury apartments. You can use our Search and Sort Tools to find your good home. Whether you’re looking for short term or long-term rental, please fill in the request form and receive the opportune assistance from our team of our experts. <b>Wayside Apartments Diani, Mombasa</b> gives all this because it is located right in the famous neighborhood and overlooking the square of the same name. The <b>Wayside Apartments</b> are spacious, bright, furnished with many period elements and enriched with works by great artists, including works by Mandi Peri. It has a kitchen, living room dining room, bathroom, master bedroom. The apartment is cared for down to the smallest detail: Among the advantages of the <b>Furnished apartments in Diani, Mombasa</b> we certainly find the location, in <b>Wayside Apartments</b>, in what is not coincidentally called the luxury district. Here we find all the most famous clothing brands and all the most prestigious boutiques in <b>Diani, Mombasa</b>. In this district, luxury is fashion, but also architecture, food, and the atmosphere we breathe among the boulevards and squares. Find and book rentals in <b>Diani, Mombasa</b> with <b>Wayside Apartments</b> Our move-in ready <b>apartments in Diani, Mombasa</b> best neighborhoods can be rented long or short-term for as little as three months.
+          </p>
+        </div>      
+      </section>
+      <hr class="hr">
+      <section class="row">
+
+        <div class="col-md-12">
+          <h2>Booking Apartments Our Apartments</h2>
+          <p style="text-align:justify;">
+                Staying in a <b>serviced apartment in Diani, Mombasa</b>, Mombasa, is great, <b>Diani, Mombasa Serviced Apartments</b> - Book <b>serviced apartments in Diani, Mombasa</b> with more space than a <b>Diani, Mombasa hotel</b> room and a huge choice of convenient locations. extended or short stay <b>apartment in Diani, Mombasa</b> gives you the freedom to experience <b>Diani, Mombasa</b> the way that suits you best. Whether you’re traveling for work or pleasure, a <b>Diani, Mombasa serviced apartment</b> leaves you free to come and go as you please with all the comfort and convenience of home along with <b>Diani, Mombasa hotel</b> benefits including a weekly clean and free WiFi. Choose from over 1000 <b>short stay apartments in Diani, Mombasa</b> and apartments throughout the <b>Diani, Mombasa. Rent Furnished Apartments in Diani, Mombasa</b>, whether you are looking for <b>short term rentals</b> or long-term rental n with flexible terms, you will always find the ideal <b>serviced apartments for rent in Diani, Mombasa</b> here. All the <b>apartments in Diani, Mombasa</b> are available for daily weekly or monthly stays. Choosing an <b>apartment in Diani, Mombasa</b> for a short-term rental while staying in <b>Diani, Mombasa</b> is a great alternative to the ordinary, cramped setting of a <b>Diani, Mombasa hotel. Furnished apartments in Diani, Mombasa</b> provides a number of options for those individuals who are looking for a short term, weekly or monthly rental apartment while visiting <b>Diani, Mombasa</b> for business or pleasure. When one contacts <b>Diani, Mombasa apartments rental</b>, they can rest assured that their short-term rental needs will be superbly met and the following reasons show why choosing <b>rent an apartment in Diani, Mombasa</b> for short term rental needs is a good choice. <b>Furnished apartments for rent in Diani, Mombasa</b> come in all sorts of shapes and sizes! For example, you <b>can rent a serviced apartment</b>, indeed, you can rent a 1bedroom or 2 bedroom</b> or <b>3 bedroom</b> or 4-<b>bedroom apartment in Diani, Mombasa</b>, Moreover, there <b>are 5 Bedroom furnished apartments</b> available for rent in <b>Diani, Mombasa</b>. For those who love the high life, one can rent furnished penthouses and duplexes in <b>Diani, Mombasa</b>. Some <b>apartments for sale in Diani, Mombasa</b> even offer all utilities included, or chiller free. Indeed, most <b>furnished Diani, Mombasa apartments</b> offer a cleaning service twice a week.  Our <b>serviced apartments in Diani, Mombasa</b> serve as a private haven for extended stay guests with its authentic family-like hospitality. Experience unparalleled comforts of home at our conveniently located <b>Diani, Mombasa Apartments to let</b>. The essence of <b>Wayside Apartments</b> is to recreate and combine the flair of the Aristocracy with modern Luxury facilities. Step into every apartment and be immediately greeted by pared-back aesthetics and cushioned bay window seats, the ideal space to take in the expansive city views. Our hotel-style accommodations boast a functional layout with a kitchen, a dining table, cable TV and more – to make every stay equally home-like, short or extended. Discover a world within <b>Sideway Apartments</b>. Relax or mingle at our range of functional and leisure facilities, each serving as an intimate extension of your personal space. Our devoted team is dedicated to perfecting every detail for that effortless and genuine comfort that reminds you fondly of home. Just a stone’s throw away from the bustling multinational business area and exciting <b>Diani, Mombasa nightlife</b>, Side way Apartments serviced apartments are the perfect base to explore <b>Diani, Mombasa</b> serene esplanades, accessible shopping, and colorful mix of local and cosmopolitan community. <b>Diani, Mombasa Apartments</b> manages personal hotels and <b>serviced apartments in Diani, Mombasa</b>, our properties are centrally located in prominent business districts, high-end shopping and entertainment neighborhoods. By combining the comfort of home living with attentive hospitality, we consistently observe our business model to create spaces where our guests can enjoy and relax in, making the Wayside Apartments a success. If you’re seeking <b>Diani, Mombasa apartments for sale</b>, then you’re in the right place. we have a variety of <b>Apartments for sale in Diani, Mombasa</b>, with many offered furnished. Whether you’re a first-time buyer in search of a 2-bedroom <b>house for sale in Diani, Mombasa</b> or you're seeking a Buy-to-Let property <b>apartments in Diani, Mombasa</b>, read on to find out about the residential opportunities available. Whether you’re in search of a <b>furnished or unfurnished Apartments for sale in Diani, Mombasa</b>, there are many options available with our new build apartments in parklands If you’re looking for a 1-, 2-, 3- or 4-bedroom flat for sale in parklands then we are here to help. With many available to purchase for <b>penthouse apartments in Diani, Mombasa</b>, we on offer to residents. 
+          </p>
+          <h2>Diani Hotels</h2>
+          <p style="text-align:justify;">
+            Finding <b>cheap beach hotels in Diani and affordable beach hotels</b> can feel difficult, it can sometimes seem as though any <b>affordable beach hotel</b> option is few and far between, or in some cases, non-existent. But we're here to tell you that you can experience beautiful and unique <b>Diani hotel</b> without spending hundreds of pounds a night – and we've made it easy by selecting the very best <b>hotels in Diani</b>, of course, the concept of affordability is subjective and depends on lots of factors – including the actual <b>beach holiday</b> destination you're travelling to, here, we're not rounding up the <b>cheapest beach hotels in Diani</b> – rather our favorite places to stay where you won't compromise on style, design and facilities but don't need deep pockets to check-in. <b>Diani resorts</b> website is the perfect choice for travelers looking to<b> book a hotel in Diani Beach</b> with a wide range of <b>resorts in Diani</b> to choose from, including the <b>Wayside Apartments</b> because <b>Diani Beach Resorts</b> website makes it easy to find the perfect <b>Diani beach accommodation</b> for your needs. In addition, <b>Diani Beach Resort</b> website offers competitive prices or rates and booking terms making it easy to find a great deal on your <b>beach resort in Diani</b>, with our <b>Diani Beach Hotels</b> finder its easy-to-use this hotel booking platform and 24/7 customer service now booking your <b>beach hotel in Diani</b> has never been easier. With a natural coastline and many vast islands, Diani Mombasa has earned a reputation as an unparalleled luxury beach vacation destination, there are plenty of great <b>beach accommodation in Diani</b>, but if you want to make your beach vacations memorable, we suggest you look for <b>beach hotels in Diani</b> with all the amenities, at <b>Diani Beach Hotels</b> indulge yourself with utmost comfort and surround yourself with friends, family, or your partner in the privacy of some of the best <b>accommodation in Diani</b>, Experiencing a stay at one of the <b>cheap resorts in Diani Mombasa</b> with all the amenities gives you an excellent glimpse of what Diani is all about. From warm and welcoming hospitality, world-class amenities, and luxurious surroundings to exciting beach activities and fantastic food, you can get a taste of what all <b>Diani</b> can offer. No wonder to experience Diani at its finest, you need to book your stay in a <b>cheap resort in Diani</b>. From honeymoon romantic stays to family beach accommodations here are the best <b>cheap beach resorts in Diani</b> with private beaches for a perfect luxury getaway. Our travel agents at Diani beach holidays ensure proper beach vacation planning, customized per your requirements and interests. Leave all your travel hassles behind and enjoy your stay at the <b>cheap beach resort in Diani</b>, with genuine customer reviews of <b>cheap hotels in Diani</b> on the beach, you can read what people really think about their stay in a <b>cheap beach hotel in Diani</b> and get a feel for where would be perfect for you.  From <b>beachfront hotels</b> overlooking a pretty pool or tranquil garden to luxury cliff-top hotels with dramatic ocean vistas, there are loads of <b>Diani cheap Hotels</b> with a perfect view. Use our <b>Dian beach ocean view</b> filter for <b>Diani cheap beach Hotels</b> with dreamy ocean views from your window, prices for <b>beachfront hotels in Diani</b> currently start at $81a night going up to $2257 for top-notch beach accommodation. Prices and availability are subject to change. Additional terms may apply. Use the family friendly filter to explore truly welcoming <b>cheap breach front hotels</b> offering kid-friendly amenities and fun-filled activities—from highchairs and cribs to water sports and beach games. It’s easy to cancel a beach hotel booking, just log into your <b>Diani Ocean Front beach Hotel</b> page and go to your itinerary to see your cancellation options. If you want peace of mind knowing you can cancel, penalty-free, book one of the many <b>luxury beach hotels in Diani</b> offering free cancellation. Get amazing travel deals on an exciting selection of beach hotels on the beach in Diani, enjoy 24/7 customer service, and save more when you bundle your beach hotels, car rental, and flights together. 
+          </p>
+          <h2>Diani beach Holidays – How To Book  </h2>
+          <p style="text-align:justify;">
+            All <b>Diani Holidays</b> on this <b>Diani Vacation</b> website are protected by the <b>Diani Holiday</b> Operators scheme, this <b>Holidays in Diani</b> Website will provide you with information on any <b>Holiday in Diani</b> protection that applies in the case of each <b>Vacation in Diani</b> before you make your booking on <b>Vacations in Diani</b>, if you do not receive confirmation from us then your <b>Diani vacations</b> booking will be on waitlist basis, please see our Diani booking conditions for all <b>Diani Beach Holidays</b>, on Any <b>Diani beach vacation</b> your mind and body can wander far from your wallet, always pay any <b>Diani Beach Holiday</b> on one simple price when you bundle your accommodation and airfare and you avoid all those yucky bills, <b>beach holidays in Diani</b> are a click of a filter or two away, choose from any <b>beach holiday in Diani</b> with great grown-up features, Say a spa for a couple’s massage or a hot tub to soak away the stresses of the day, or a swim-up bar to get the party started. There are many affordable <b>beach vacations in Diani</b> whatever your <b>travel budgets</b>, our <b>beach vacation in Diani</b> starts tempting you with low prices and availability are subject to change, for <b>all-inclusive vacations</b> plan your wallet will love, book a <b>Diani Beach Vacation</b> in the quieter months of March or April, whenever you book your <b>Diani Beach vacations</b> sorting by price and filtering by tour budget shows you what’s out there in your price range, create your dream travel getaway by bundling your <b>Diani flights and Diani accommodation</b> and you get delightful <b>Diani travel</b> deals and <b>accommodation in Diani</b> discounts plus add your <b>Diani car rental</b>, too, and you save on all three, with little tummies taken care of you just need to put smiles on their faces. Easy! Book an <b>all-inclusive Diani beach vacation</b> with an epic pool. You can start your married life how you mean to go on with <b>Honeymoon holiday in Diani</b>. Eat and drink to your heart’s content, waltz around in happy harmony, and have your fill of delights, together you can book up <b>Diani Honeymoon Holiday</b> and return to a pool-side cabana for cocktails at sunset. When you’re searching for your <b>Diani Family Holiday</b> getaway filter your travel results by payment option to find free cancellation and buy now, pay later options, that way you can rebook your <b>family holiday to Diani</b> without worry should your plans change, book amazing <b>all-inclusive vacations in Diani</b> all in one place, choose from a vast inventory of any <b>all-inclusive holiday</b> deals, adding every little extra to build your brilliant break in minutes. <b>All-inclusive vacations to Diani</b> are well worth the up-front cost. Once you’ve booked your <b>Diani beach all-inclusive Vacation</b>, you don’t have to think about the word “budget travel” again. Everything you need is nearby, from delicious restaurants to daily activities, and night-time entertainment. There’s no limit to your fun, and you never have to watch your spending, because it’s all included
+          </p>
+        </div>      
+      </section>
+      <hr class="hr">      
+      <section class="row" id="gallery">
+        <h2 style="text-align: center;">Our Gallery</h2>
+        <div class="col-md-12">
+          <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <h2></h2>
+                <div class="row">
+                  <div class="col-md-4">
+                    <img src="d077a5b7-ef3e-42c5-82cf-4de6afefe9d7.jpg" class="d-block w-100" alt="Gallery Image 1">
+                    <p>Swimming-pool</p>
+                  </div>
+                  <div class="col-md-4">
+                    <img src="548ac1d5-cf15-4329-8b5e-31155d2a49fe.jpg" class="d-block w-100" alt="Gallery Image 2">
+                    <p></p>
+                  </div>
+                  <div class="col-md-4">
+                    
+                    <img src="e1cd70a4-47fa-4580-9e06-04fc66a9fcc4.jpg" class="d-block w-100" alt="Gallery Image 3">
+                    <p> </p>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <h2> </h2>
+                <div class="row">
+                  <div class="col-md-4">
+                    <img src="4673e732-0afe-4311-bd6d-61f1fca785f5.jpg" class="d-block w-100" alt="Gallery Image 4">
+                    <p></p>
+                  </div>
+                  <div class="col-md-4">
+                    <img src="46733b56-5660-42ee-a199-d9880ee37468.jpg" class="d-block w-100" alt="Gallery Image 5">
+                    <p></p>
+                  </div>
+                  <div class="col-md-4">
+                    <img src="fab09d9c-9e82-43d2-973c-024f8be4494f.jpg" class="d-block w-100" alt="Gallery Image 6">
+                    <p></p>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <h2> </h2>
+                <div class="row">
+                  <div class="col-md-4">
+                    <img src="a128a0cf-f653-44ea-a82e-df70f038cf60.jpg" class="d-block w-100" alt="Gallery Image 4">
+                    <p></p>
+                  </div>
+                  <div class="col-md-4">
+                    <img src="b3d14684-558d-45e6-ad58-56613d97694a.jpg" class="d-block w-100" alt="Gallery Image 5">
+                    <p></p>
+                  </div>
+                  <div class="col-md-4">
+                    <img src="46733b56-5660-42ee-a199-d9880ee37468.jpg" class="d-block w-100" alt="Gallery Image 6">
+                    <p></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </section>      
+      <hr class="hr">
+      
+      <section class="row d-flex justify-content-center" id="contact">
+        <h2 style="text-align: center;">Contact Us</h2>
+        <div class="col-md-6">
+          <!-- Contact form -->
+          <form id="contactForm">
+            <div class="mb-3">
+              <label for="name" class="form-label">Your Name</label>
+              <input type="text" class="form-control" id="name" name="name" required>
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Your Email</label>
+              <input type="email" class="form-control" id="email" name="email" required>
+            </div>
+            <div class="mb-3">
+              <label for="subject" class="form-label">Subject</label>
+              <input type="text" class="form-control" id="subject" name="subject" required>
+            </div>
+            <div class="mb-3">
+              <label for="subject" class="form-label">Your Phone</label>
+              <input type="text" class="form-control" id="subject" name="subject" required>
+            </div>
+            <div class="mb-3">
+              <label for="message" class="form-label">Message</label>
+              <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+          </form>
+        </div>      
+      </section>
+        <br>
+        <hr class="hr">
+    </main>
+
+  <footer class="text-light py-3">
+    <div class="container-fluid">
+      <ul class="nav justify-content-center footer-links">
+        <li class="nav-item"><a href="" class="nav-link">HOME</a></li>
+            <li class="nav-item"><a href="" class="nav-link">ABOUT US</a></li>
+            <li class="nav-item"><a href="" class="nav-link">WHY US</a></li>
+            <li class="nav-item"><a href="" class="nav-link">REVIEWS</a></li>
+            <li class="nav-item"><a href="" class="nav-link">BLOGS</a></li>
+            <li class="nav-item"><a href="#gallery" class="nav-link">GALLERY</a></li>
+            <li class="nav-item"><a href="#contact" class="nav-link">CONTACT US</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS (optional, if you need JS functionalities) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Add this script tag at the end of your HTML body -->
+<script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+<script>
+  (function() {
+    // Initialize EmailJS with your user ID
+    emailjs.init("YOUR_USER_ID");
+
+    // Add event listener to the form
+    document.getElementById("contactForm").addEventListener("submit", function(event) {
+      event.preventDefault(); // Prevent the default form submission
+
+      // Get the form data
+      let formData = {
+        name: document.getElementById("name").value,
+        email: document.getElementById("email").value,
+        subject: document.getElementById("subject").value,
+        message: document.getElementById("message").value
+      };
+
+      // Send the form data using EmailJS
+      emailjs.send("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", formData)
+        .then(function(response) {
+          console.log("Email sent successfully!", response);
+          alert("Your message has been sent successfully!");
+        }, function(error) {
+          console.error("Email sending failed:", error);
+          alert("Sorry, an error occurred while sending your message. Please try again later.");
+        });
+    });
+  })();
+</script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+
+</body>
+</html>
